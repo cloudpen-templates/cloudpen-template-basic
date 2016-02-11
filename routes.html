@@ -1,8 +1,24 @@
-# CMS Template
-Default template for CMS
+{% if router.get('blog', '/') %}
+  {% include 'templates/blog/index.html' %}
+{% endif %}
 
-## Install
-Run npm install in terminal
+{% if router.get('blog', '/post/:slug') %}
+  {% include 'templates/blog/single.html' %}
+{% endif %}
 
-## Start
-Run npm run start in terminal
+{% if router.get('blog', '/category') %}
+  {% include 'templates/blog/category.html' %}
+{% endif %}
+
+{% if router.get('blog', '/category/:slug') %}
+  {% include 'templates/blog/category.html' %}
+{% endif %}
+
+{% if router.get('blog', '/archive/:y/:m/:d') %}
+  {% include 'templates/blog/archive.html' %}
+{% endif %}
+
+{% if router.get('page') %}
+  {% set page_template_path = 'templates/pages/' + current_page.meta.item_type.data.id + '.html' %}
+  {% include page_template_path %}
+{% endif %}
