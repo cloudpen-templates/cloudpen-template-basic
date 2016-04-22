@@ -41,7 +41,7 @@
           </div>
           {% if image %}
           <div class="bg-img hidden-xs">
-            <img src="{{ image.id | asset_url }}" alt="">
+            <img src="{{ image.id | media_item_url }}" alt="">
           </div>
           {% endif %}
         </div>
@@ -177,7 +177,7 @@
           </div>-->
           {% if image %}
           <div class="bg-img hidden-xs">
-            <img src="{{ image.id | asset_url }}" alt="">
+            <img src="{{ image.id | media_item_url }}" alt="">
           </div>
           {% endif %}
         </div> <!-- / .item -->
