@@ -6328,6 +6328,12 @@ ul {
 .navbar-nav > #navbar-search > a > i.fa-times {
   margin: 0 1px;
 }
+/*** Navbar Form ***/
+.navbar-form { 
+  border-bottom: 1px solid transparent;
+  margin-top: 23.5px;
+  margin-bottom: 23.5px;
+}
 /* ===== Dropdowns ===== */
 .dropdown-menu {
   border-radius: 0 0 3px 3px;
