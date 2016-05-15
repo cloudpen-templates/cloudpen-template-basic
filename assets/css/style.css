@@ -6304,7 +6304,7 @@ ul {
   background-color: white;
 }
 /*** Navbar Search ***/
-.navbar-nav #navbar-search-box {
+.navbar-nav #navbar-search-box { 
   position: absolute;
   right: 0;
   bottom: -69px;
