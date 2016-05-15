@@ -3965,7 +3965,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: right !important;
   }
 }
-.navbar-form {
+.navbar-form { 
   margin-left: -15px;
   margin-right: -15px;
   padding: 10px 15px;
