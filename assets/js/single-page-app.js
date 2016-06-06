@@ -6,6 +6,8 @@ Created:    2016-06-03
 Updated:    2016-06-03
 -------------------------------------------------------------------*/
 
+alert('gaga');
+
 $('a').each(function() {
   var link = $(this);
   link.click(function() {
