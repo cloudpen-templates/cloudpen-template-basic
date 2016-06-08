@@ -27,7 +27,7 @@ function goToRoute(url) {
         var title = $(response).find('title').text();
         var scripts = [];
         $(response).find('body script').each(function() {
-          if (!~src.indexOf('jquery') && !~src.indexOf('bootstrap')) { 
+          if (!~src.indexOf('localhost:35729')) { 
             $(this).remove();
             scripts.push(this.src);
             // console.log('Removed script: ', this.src);
