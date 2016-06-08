@@ -58,6 +58,23 @@ $('.rating .votedown').on('click', function () {
     return false;
 });
 
+/* ===== Tooltips ===== */
+
+$('#tooltip').tooltip();
+
+/* ===== Feedback ===== */
+
+$('.feedback-author').hover (function() {
+    var quote = $(this).data('quote');
+    $('.feedback-author').removeClass("active");
+    $(this).addClass("active");
+    $('.feedback-quote').removeClass("show animated fadeIn");
+    $('.feedback-quote').addClass("hidden");
+    $('.feedback-quote' + quote).toggleClass("hidden show");
+    $('.feedback-quote' + quote).addClass("animated fadeIn");
+    return false;
+});
+
 // ========
 // BLOG 
 // ========
