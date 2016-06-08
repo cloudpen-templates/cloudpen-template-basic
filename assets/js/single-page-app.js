@@ -26,7 +26,6 @@ function goToRoute(url) {
         var response = xhr.responseXML;
         var title = $(response).find('title').text();
         var scripts = [];
-        console.log($(response).find('body script'));
         $(response).find('body script').each(function() {
           $(this).remove();
           scripts.push(this.src);
