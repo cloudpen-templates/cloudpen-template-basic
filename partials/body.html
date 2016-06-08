@@ -1,1 +1,15 @@
-body.html
+<div class="wrapper"> 
+  <!-- Topic Header -->
+  {% include '../partials/topic-header.html' %}
+  {% if current_page.attributes.start_page !== true %}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+  {% endif %}
+    {% include '../routes.html' %}
+  {% if current_page.attributes.start_page !== true %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
