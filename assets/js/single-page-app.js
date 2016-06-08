@@ -27,7 +27,7 @@ function goToRoute(url) {
         var title = $(response).find('title').text();
         var scripts = [];
         $(response).find('body script').each(function() {
-          if (this.id !== 'render-livereload') { 
+          if (this.id !== 'render-livereload') {  
             $(this).remove();
             scripts.push(this.src);
             // console.log('Removed script: ', this.src);
