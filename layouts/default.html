@@ -24,7 +24,7 @@
         <div class="row">
           <div class="col-sm-12">
       {% endif %}
-        {{ current_route | json }}
+        {{ current_route.type | json }}
         {% include '../routes.html' %}
       {% if current_page.attributes.start_page !== true %}
           </div>
