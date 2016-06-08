@@ -27,9 +27,11 @@ function goToRoute(url) {
         var title = $(response).find('title').text();
         var scripts = [];
         $(response).find('body script').each(function() {
+          if (!~src.indexOf('jquery') && !~src.indexOf('bootstrap')) { 
           $(this).remove();
           scripts.push(this.src);
           // console.log('Removed script: ', this.src);
+          }
         });
         var bodyHtml = $(response).find('body').html();
         $('body').html(bodyHtml);
