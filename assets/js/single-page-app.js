@@ -34,7 +34,7 @@ function goToRoute(url) {
         var bodyHtml = $(response).find('body').html();
         $('body').html(bodyHtml);
         $.each(scripts, function(index, src) {
-          if (!~src.indexOf('jquery') && !~src.indexOf('bootstrap') && !~src.indexOf('localhost:35729')) { 
+          if (!~src.indexOf('jquery') && !~src.indexOf('bootstrap')) { 
             $.getScript(src, function() {}); 
             // console.log('Added script: ', src);
           }
