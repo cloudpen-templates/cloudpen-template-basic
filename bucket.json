@@ -1289,10 +1289,6 @@
     ],
     "bucket_meta": [
       {
-        "id": "template",
-        "value": "basic"
-      },
-      {
         "id": "config",
         "value": {
           "item_types": {
