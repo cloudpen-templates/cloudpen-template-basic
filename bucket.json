@@ -2,7 +2,6 @@
   "bucket": {
     "item_types": [
       {
-        
         "type": "item-types",
         "id": "start-page",
         "attributes": {
