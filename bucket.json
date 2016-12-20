@@ -6,6 +6,7 @@
           "type": "item-types",
           "id": "start-page",
           "attributes": {
+            "title": "Startsida",
             "icon": "book",
             "show_in_page_menu": true,
             "display_property": "title",
@@ -149,6 +150,7 @@
           "type": "item-types",
           "id": "nav-menu-item",
           "attributes": {
+            "title": "Sida",
             "icon": "file",
             "display_property": "display_name",
             "show_in_dashboard": true,
@@ -212,6 +214,7 @@
           "type": "item-types",
           "id": "sub-page",
           "attributes": {
+            "title": "Undersida",
             "icon": "file",
             "show_in_page_menu": true,
             "display_property": "title",
@@ -251,6 +254,7 @@
           "type": "item-types",
           "id": "link",
           "attributes": {
+            "title": "Länk",
             "icon": "file",
             "show_in_page_menu": true,
             "labels": {
@@ -299,6 +303,7 @@
           "type": "item-types",
           "id": "blog",
           "attributes": {
+            "title": "Blogg",
             "icon": "file",
             "show_in_page_menu": true,
             "display_property": "title",
@@ -330,6 +335,7 @@
           "type": "item-types",
           "id": "blog-post",
           "attributes": {
+            "title": "Bloggpost",
             "icon": "book",
             "show_in_menu": false,
             "show_in_dashboard": true,
@@ -419,6 +425,7 @@
           "type": "item-types",
           "id": "blog-post-category",
           "attributes": {
+            "title": "Kategori",
             "icon": "file",
             "display_property": "title",
             "labels": {
@@ -465,6 +472,7 @@
           "type": "item-types",
           "id": "blog-settings",
           "attributes": {
+            "title": "Blogginställningar",
             "icon": "cogs",
             "show_in_menu": false,
             "single": true,
@@ -570,6 +578,7 @@
           "type": "item-types",
           "id": "portfolio",
           "attributes": {
+            "title": "Portfolio",
             "icon": "file",
             "show_in_page_menu": true,
             "display_property": "title",
@@ -601,6 +610,7 @@
           "type": "item-types",
           "id": "portfolio-post",
           "attributes": {
+            "title": "Portfoliopost",
             "icon": "book",
             "show_in_dashboard": true,
             "display_property": "title",
@@ -677,6 +687,7 @@
           "type": "item-types",
           "id": "catalog-product",
           "attributes": {
+            "title": "Produkt",
             "icon": "book",
             "show_in_dashboard": true,
             "display_property": "title",
@@ -752,6 +763,7 @@
           "type": "item-types",
           "id": "image",
           "attributes": {
+            "title": "Bild",
             "icon": "file",
             "display_property": "title",
             "labels": {
