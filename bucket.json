@@ -1324,6 +1324,154 @@
           }
         }
       }
+    ],
+    "bucket_meta": [
+      {
+        "data": {
+          "type": "meta",
+          "id": "config",
+          "attributes": {
+            "key": "config",
+            "value": {
+              "item_types": {
+                "hidden": [
+                  "nav-menu-item",
+                  "link"
+                ]
+              },
+              "admin_menu": [
+                {
+                  "display_name": "Sidor",
+                  "icon": "file",
+                  "item_type": "nav-menu-item"
+                },
+                {
+                  "display_name": "Blogg",
+                  "icon": "book",
+                  "items": [
+                    {
+                      "display_name": "Poster",
+                      "icon": "book",
+                      "item_type": "blog-post"
+                    },
+                    {
+                      "display_name": "Kategorier",
+                      "icon": "book",
+                      "item_type": "blog-post-category"
+                    },
+                    {
+                      "display_name": "Inställningar",
+                      "icon": "cogs",
+                      "item_type": "blog-settings"
+                    }
+                  ]
+                },
+                {
+                  "display_name": "Portfolio",
+                  "icon": "book",
+                  "items": [
+                    {
+                      "display_name": "Portfolioposter",
+                      "icon": "book",
+                      "item_type": "portfolio-post"
+                    }
+                  ]
+                },
+                {
+                  "display_name": "Produktkatalog",
+                  "icon": "book",
+                  "items": [
+                    {
+                      "display_name": "Produkter",
+                      "icon": "book",
+                      "item_type": "catalog-product"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "type": "meta",
+          "id": "template",
+          "attributes": {
+            "key": "template",
+            "value": "basic"
+          }
+        }
+      },
+      {
+        "data": {
+          "type": "meta",
+          "id": "template_custom",
+          "attributes": {
+            "key": "template_custom",
+            "value": "app-58599a2dcc0145cb1567b128"
+          }
+        }
+      },
+      {
+        "data": {
+          "type": "meta",
+          "id": "subdomain",
+          "attributes": {
+            "key": "subdomain",
+            "value": "app-58599a2dcc0145cb1567b128"
+          }
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": "image-1",
+        "attributes": {
+          "title": "Slide 1",
+          "description": "En bild till slidern",
+          "file": {
+            "url": "/assets/img/item-1.png",
+            "name": "item-1.png",
+            "mime_type": "image/png",
+            "size": 0
+          }
+        }
+      },
+      {
+        "id": "56ba75249cd1962f7b30f044",
+        "attributes": {
+          "title": "General 3",
+          "description": "",
+          "file": {
+            "url": "/assets/img/general-3.jpg",
+            "name": "general-3.jpg",
+            "mime_type": "image/jpeg",
+            "size": 0
+          }
+        }
+      },
+      {
+        "id": "image-2",
+        "attributes": {
+          "title": "Slide 2",
+          "description": "En bild till slidern",
+          "file": {
+            "url": "/assets/img/item-2.png",
+            "name": "item-2.png",
+            "mime_type": "image/png",
+            "size": 0
+          }
+        }
+      }
+    ],
+    "access_tokens": [
+      {
+        "attributes": {
+          "name": "Min access token",
+          "description": "En access token till mig"
+        }
+      }
     ]
   }
 }
