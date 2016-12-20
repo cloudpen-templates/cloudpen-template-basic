@@ -5,136 +5,57 @@
       "id": "start-page",
       "attributes": {
         "title": "Startsida",
-        "icon": "book",
-        "show_in_page_menu": true,
-        "display_property": "title",
-        "labels": {
-          "plural_name": "startsidor",
-          "singular_name": "startsida",
-          "definite_form_name": "startsidan",
-          "add": "skapa ny",
-          "edit": "ändra",
-          "delete": "ta bort"
-        },
         "properties": {
-          "slider": {
-            "type": "array",
-            "title": "Slider",
-            "items": {
-              "type": "object",
-              "title": "Slide",
-              "properties": {
-                "heading": {
-                  "type": "string",
-                  "title": "Rubrik"
-                },
-                "excerpt": {
-                  "type": "string",
-                  "title": "Underrubrik"
-                },
-                "text": {
-                  "type": "string",
-                  "title": "Text",
-                  "field": {
-                    "type": "text",
-                    "height": "100px"
-                  }
-                },
-                "image": {
-                  "type": "relationship",
-                  "title": "Bild",
-                  "multiple": false,
-                  "data": [
-                    {
-                      "type": "media"
-                    }
-                  ]
-                },
-                "link": {
-                  "type": "string",
-                  "title": "Länk",
-                  "format": "uri"
-                },
-                "link_text": {
-                  "type": "string",
-                  "title": "Länktext"
-                }
-              }
-            }
-          },
-          "features_title": {
+          "title": {
             "type": "string",
-            "title": "Features - Titel"
+            "title": "Titel",
+            "required": true
           },
-          "features": {
-            "type": "array",
-            "title": "Features",
-            "items": {
-              "type": "object",
-              "title": "Feature",
-              "properties": {
-                "heading": {
-                  "type": "string",
-                  "title": "Rubrik"
-                },
-                "text": {
-                  "type": "string",
-                  "title": "Text",
-                  "field": {
-                    "type": "text",
-                    "height": "100px"
-                  }
-                },
-                "icon": {
-                  "type": "string",
-                  "title": "Ikon",
-                  "enum": [
-                    "gears",
-                    "arrows-alt",
-                    "refresh",
-                    "plus",
-                    "envelope-o",
-                    "picture-o"
-                    ],
-                    "field": {
-                      "option_labels": [
-                        "gears",
-                        "arrows-alt",
-                        "refresh",
-                        "plus",
-                        "envelope-o",
-                        "picture-o"
-                      ]
-                    }
-                  }
-                }
-              }
-            },
-            "slider_rel": {
-              "type": "relationship",
-              "title": "Slider",
-              "multiple": true,
-              "mode": "inline",
-              "disabled": true,
-              "data": [
-                {
-                  "id": "slider",
-                  "type": "items"
-                }
-              ]
+          "slug": {
+            "type": "slug",
+            "title": "Slugg",
+            "unique_with": [
+              "meta.parent_id",
+              "meta.item_type.data.id"
+            ],
+            "populate_from": "title",
+            "required": true
+          },
+          "summary": {
+            "type": "text",
+            "title": "Sammanfattning",
+            "field": {
+              "height": "100px"
             }
           },
-          "options": {
-            "form": {
-              "ayout": {
-                "idebar": [
-                  "lider",
-                  "eatures_title",
-                  "eatures",
-                  "lider_rel"
-                ]
-              }
+          "body": {
+            "type": "string",
+            "title": "Innehåll",
+            "format": "markdown",
+            "field": {
+              "eight": "800px",
+              "placeholder": "Börja skriva din bloggpost här..."
             }
+          },
+          "image": {
+            "type": "relationship",
+            "title": "Image",
+            "data": [
+              {
+                "type": "media"
+              }
+            ]
+          },
+          "categories": {
+            "type": "relationship",
+            "title": "Kategorier",
+            "multiple": true,
+            "data": [
+              {
+                "type": "items",
+                "id": "blog-post-category"
+              }
+            ]
           }
         },
         "meta": {
