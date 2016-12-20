@@ -1546,16 +1546,6 @@
       {
         "data": {
           "type": "meta",
-          "id": "template",
-          "attributes": {
-            "key": "template",
-            "value": "basic"
-          }
-        }
-      },
-      {
-        "data": {
-          "type": "meta",
           "id": "template_custom",
           "attributes": {
             "key": "template_custom",
