@@ -1546,16 +1546,6 @@
       {
         "data": {
           "type": "meta",
-          "id": "template_custom",
-          "attributes": {
-            "key": "template_custom",
-            "value": "app-5859ae9d4f3bcb6830daab0b"
-          }
-        }
-      },
-      {
-        "data": {
-          "type": "meta",
           "id": "config",
           "attributes": {
             "key": "config",
@@ -1617,16 +1607,6 @@
                 }
               ]
             }
-          }
-        }
-      },
-      {
-        "data": {
-          "type": "meta",
-          "id": "subdomain",
-          "attributes": {
-            "key": "subdomain",
-            "value": "app-5859ae9d4f3bcb6830daab0b"
           }
         }
       }
