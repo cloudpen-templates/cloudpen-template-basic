@@ -165,18 +165,22 @@
             "properties": {
               "display_name": {
                 "type": "string",
-                "title": "Menynamn",
-                "required": true
+                "required": true,
+                "field": {
+                  "placeholder": "Menynamn"
+                }
               },
               "slug": {
                 "type": "slug",
-                "title": "Slugg",
                 "unique_with": [
                   "meta.parent_id",
                   "meta.item_type.data.id"
                 ],
                 "populate_from": "display_name",
-                "required": true
+                "required": true,
+                "field": {
+                  "placeholder": "Slugg"
+                }
               },
               "path": {
                 "type": "string",
