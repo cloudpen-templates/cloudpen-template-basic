@@ -789,9 +789,9 @@
       {
         "data": {
           "type": "item-types",
-          "id": "config",
+          "id": "c10-config",
           "attributes": {
-            "title": "Konfiguration",
+            "title": "C10 - Konfiguration",
             "properties": {
               "title": {
                 "type": "string",
@@ -1646,7 +1646,7 @@
             "item_type": {
               "data": {
                 "type": "item-types",
-                "id": "config"
+                "id": "c10-config"
               }
             },
             "position": 0,
