@@ -785,6 +785,30 @@
             "status": "published"
           }
         }
+      },
+      {
+        "data": {
+          "type": "item-types",
+          "id": "config",
+          "attributes": {
+            "title": "Konfiguration",
+            "properties": {
+              "title": {
+                "type": "string",
+                "title": "Titel"
+              },
+              "config": {
+                "type": "string",
+                "format": "markdown",
+                "title": "Konfiguration"
+              }
+            }
+          },
+          "meta": {
+            "position": 13,
+            "status": "published"
+          }
+        }
       }
     ],
     "items": [
