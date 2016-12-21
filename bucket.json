@@ -799,7 +799,7 @@
               },
               "config": {
                 "type": "string",
-                "format": "markdown",
+                "format": "json",
                 "title": "Konfiguration"
               }
             }
@@ -1573,6 +1573,26 @@
               }
             },
             "position": 6,
+            "status": "published"
+          }
+        }
+      },
+      {
+        "data": {
+          "type": "items",
+          "id": "admin-menu",
+          "attributes": {
+            "title": "Admin Menu",
+            "config": ""
+          },
+          "meta": {
+            "item_type": {
+              "data": {
+                "type": "item-types",
+                "id": "config"
+              }
+            },
+            "position": 0,
             "status": "published"
           }
         }
