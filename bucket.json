@@ -4,6 +4,74 @@
       {
         "data": {
           "type": "item-types",
+          "id": "nav-menu-item",
+          "attributes": {
+            "title": "Sida",
+            "icon": "file",
+            "display_property": "display_name",
+            "show_in_dashboard": true,
+            "labels": {
+              "plural_name": "sidor",
+              "singular_name": "sida",
+              "definite_form_name": "sidan",
+              "add": "skapa",
+              "edit": "ändra",
+              "delete": "ta bort"
+            },
+            "properties": {
+              "display_name": {
+                "type": "string",
+                "required": true,
+                "field": {
+                  "placeholder": "Menynamn"
+                }
+              },
+              "slug": {
+                "type": "slug",
+                "unique_with": [
+                  "meta.parent_id",
+                  "meta.item_type.data.id"
+                ],
+                "populate_from": "display_name",
+                "required": true,
+                "field": {
+                  "placeholder": "Slugg"
+                }
+              },
+              "path": {
+                "type": "string",
+                "title": "Skapas automagiskt",
+                "generate_path_property": "path",
+                "field": {
+                  "type": "hidden"
+                }
+              },
+              "start_page": {
+                "type": "boolean",
+                "title": "Sätt som startsida"
+              },
+              "page": {
+                "type": "relationship",
+                "title": "Sida",
+                "data": {
+                  "type": "items",
+                  "condition": {
+                    "property": "show_in_page_menu",
+                    "value": true
+                  }
+                }
+              }
+            }
+          },
+          "meta": {
+            "position": 0,
+            "status": "published"
+          }
+        }
+      },
+      {
+        "data": {
+          "type": "item-types",
           "id": "start-page",
           "attributes": {
             "title": "Startsida",
@@ -140,75 +208,7 @@
             }
           },
           "meta": {
-            "position": 0,
-            "status": "published"
-          }
-        }
-      },
-      {
-        "data": {
-          "type": "item-types",
-          "id": "nav-menu-item",
-          "attributes": {
-            "title": "Sida",
-            "icon": "file",
-            "display_property": "display_name",
-            "show_in_dashboard": true,
-            "labels": {
-              "plural_name": "sidor",
-              "singular_name": "sida",
-              "definite_form_name": "sidan",
-              "add": "skapa",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
-            "properties": {
-              "display_name": {
-                "type": "string",
-                "required": true,
-                "field": {
-                  "placeholder": "Menynamn"
-                }
-              },
-              "slug": {
-                "type": "slug",
-                "unique_with": [
-                  "meta.parent_id",
-                  "meta.item_type.data.id"
-                ],
-                "populate_from": "display_name",
-                "required": true,
-                "field": {
-                  "placeholder": "Slugg"
-                }
-              },
-              "path": {
-                "type": "string",
-                "title": "Skapas automagiskt",
-                "generate_path_property": "path",
-                "field": {
-                  "type": "hidden"
-                }
-              },
-              "start_page": {
-                "type": "boolean",
-                "title": "Sätt som startsida"
-              },
-              "page": {
-                "type": "relationship",
-                "title": "Sida",
-                "data": {
-                  "type": "items",
-                  "condition": {
-                    "property": "show_in_page_menu",
-                    "value": true
-                  }
-                }
-              }
-            }
-          },
-          "meta": {
-            "position": 0,
+            "position": 1,
             "status": "published"
           }
         }
@@ -248,7 +248,7 @@
             }
           },
           "meta": {
-            "position": 1,
+            "position": 2,
             "status": "published"
           }
         }
@@ -297,7 +297,7 @@
             }
           },
           "meta": {
-            "position": 4,
+            "position": 3,
             "status": "published"
           }
         }
@@ -329,7 +329,7 @@
             }
           },
           "meta": {
-            "position": 5,
+            "position": 4,
             "status": "published"
           }
         }
@@ -419,7 +419,7 @@
             }
           },
           "meta": {
-            "position": 6,
+            "position": 5,
             "status": "published"
           }
         }
@@ -466,7 +466,7 @@
             }
           },
           "meta": {
-            "position": 7,
+            "position": 6,
             "status": "published"
           }
         }
@@ -572,7 +572,7 @@
             }
           },
           "meta": {
-            "position": 8,
+            "position": 7,
             "status": "published"
           }
         }
@@ -604,7 +604,7 @@
             }
           },
           "meta": {
-            "position": 9,
+            "position": 8,
             "status": "published"
           }
         }
@@ -681,7 +681,7 @@
             }
           },
           "meta": {
-            "position": 10,
+            "position": 9,
             "status": "published"
           }
         }
@@ -757,7 +757,7 @@
             }
           },
           "meta": {
-            "position": 11,
+            "position": 10,
             "status": "published"
           }
         }
@@ -785,7 +785,7 @@
             }
           },
           "meta": {
-            "position": 12,
+            "position": 11,
             "status": "published"
           }
         }
@@ -809,7 +809,7 @@
             }
           },
           "meta": {
-            "position": 13,
+            "position": 12,
             "status": "published"
           }
         }
