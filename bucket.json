@@ -6,7 +6,7 @@
           "type": "item-types",
           "id": "nav-menu-item",
           "attributes": {
-            "title": "Sida",
+            "title": "Navigation",
             "icon": "file",
             "display_property": "display_name",
             "show_in_dashboard": true,
