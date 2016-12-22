@@ -429,7 +429,7 @@
           "type": "item-types",
           "id": "blog-post-category",
           "attributes": {
-            "title": "Kategori",
+            "title": "Bloggkategori",
             "icon": "file",
             "display_property": "title",
             "labels": {
