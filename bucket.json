@@ -40,7 +40,7 @@
               },
               "path": {
                 "type": "string",
-                "title": "Skapas automagiskt",
+                "title": "Relativ URL",
                 "generate_path_property": "path",
                 "field": {
                   "type": "hidden"
