@@ -1004,6 +1004,14 @@
                 "link_text": ""
               }
             ],
+            "introduction": {
+              "type": "string",
+              "title": "Introduction",
+              "format": "markdown",
+              "field": {
+                "height": "100px"
+              }
+            },
             "features_title": "Key features",
             "features": [
               {
