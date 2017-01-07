@@ -374,13 +374,9 @@
                   }
                 },
                 "body": {
-                  "type": "string",
+                  "type": "text",
                   "title": "Innehåll",
-                  "format": "markdown",
-                  "field": {
-                    "eight": "800px",
-                    "placeholder": "Börja skriva din bloggpost här..."
-                  }
+                  "format": "markdown"
                 },
                 "image": {
                   "type": "relationship",
@@ -654,13 +650,9 @@
                   }
                 },
                 "body": {
-                  "type": "string",
+                  "type": "text",
                   "title": "Innehåll",
-                  "format": "markdown",
-                  "field": {
-                    "eight": "800px",
-                    "placeholder": "Börja skriva din bloggpost här..."
-                  }
+                  "format": "markdown"
                 },
                 "image": {
                   "type": "relationship",
@@ -724,13 +716,9 @@
                   }
                 },
                 "body": {
-                  "type": "string",
+                  "type": "text",
                   "title": "Innehåll",
-                  "format": "markdown",
-                  "field": {
-                    "eight": "800px",
-                    "placeholder": "Börja skriva din bloggpost här..."
-                  }
+                  "format": "markdown"
                 },
                 "image": {
                   "type": "relationship",
@@ -1022,7 +1010,7 @@
               }
             ],
             "introduction": {
-              "type": "string",
+              "type": "text",
               "title": "Introduction",
               "format": "markdown",
               "field": {
