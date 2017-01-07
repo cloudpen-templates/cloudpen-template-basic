@@ -431,16 +431,7 @@
           "id": "blog-post-category",
           "attributes": {
             "title": "Bloggkategori",
-            "icon": "file",
             "display_field": "title",
-            "labels": {
-              "plural_name": "kategorier",
-              "singular_name": "kategori",
-              "definite_form_name": "kategorin",
-              "add": "lägg till",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
             "schema": {
               "properties": {
                 "title": {
@@ -470,7 +461,18 @@
           },
           "meta": {
             "position": 6,
-            "status": "published"
+            "status": "published",
+            "options": {
+              "icon": "file",
+              "labels": {
+                "plural_name": "kategorier",
+                "singular_name": "kategori",
+                "definite_form_name": "kategorin",
+                "add": "lägg till",
+                "edit": "ändra",
+                "delete": "ta bort"
+              }
+            }
           }
         }
       },
@@ -480,18 +482,6 @@
           "id": "blog-settings",
           "attributes": {
             "title": "Blogginställningar",
-            "icon": "cogs",
-            "show_in_menu": false,
-            "single": true,
-            "show_in_dashboard": false,
-            "labels": {
-              "plural_name": "blogginställningar",
-              "singular_name": "blogginställning",
-              "definite_form_name": "bloginställningen",
-              "add": "lägg till",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
             "schema": {
               "properties": {
                 "title": {
@@ -578,7 +568,20 @@
           },
           "meta": {
             "position": 7,
-            "status": "published"
+            "status": "published",
+            "options": {
+              "icon": "cogs",
+              "show_in_menu": false,
+              "show_in_dashboard": false,
+              "labels": {
+                "plural_name": "blogginställningar",
+                "singular_name": "blogginställning",
+                "definite_form_name": "bloginställningen",
+                "add": "lägg till",
+                "edit": "ändra",
+                "delete": "ta bort"
+              }
+            }
           }
         }
       },
@@ -588,17 +591,7 @@
           "id": "portfolio",
           "attributes": {
             "title": "Portfolio",
-            "icon": "file",
-            "show_in_page_menu": true,
             "display_field": "title",
-            "labels": {
-              "plural_name": "portfolios",
-              "singular_name": "portfolio",
-              "definite_form_name": "portfolion",
-              "add": "lägg till",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
             "schema": {
               "properties": {
                 "title": {
@@ -612,7 +605,19 @@
           },
           "meta": {
             "position": 8,
-            "status": "published"
+            "status": "published",
+            "options": {
+              "icon": "file",
+              "show_in_page_menu": true,
+              "labels": {
+                "plural_name": "portfolios",
+                "singular_name": "portfolio",
+                "definite_form_name": "portfolion",
+                "add": "lägg till",
+                "edit": "ändra",
+                "delete": "ta bort"
+              }
+            }
           }
         }
       },
@@ -622,17 +627,7 @@
           "id": "portfolio-post",
           "attributes": {
             "title": "Portfoliopost",
-            "icon": "book",
-            "show_in_dashboard": true,
             "display_field": "title",
-            "labels": {
-              "plural_name": "portfolioposter",
-              "singular_name": "portfoliopost",
-              "definite_form_name": "portfolioposten",
-              "add": "lägg till",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
             "schema": {
               "properties": {
                 "title": {
@@ -691,7 +686,19 @@
           },
           "meta": {
             "position": 9,
-            "status": "published"
+            "status": "published",
+            "options": {
+              "icon": "book",
+              "show_in_dashboard": true,
+              "labels": {
+                "plural_name": "portfolioposter",
+                "singular_name": "portfoliopost",
+                "definite_form_name": "portfolioposten",
+                "add": "lägg till",
+                "edit": "ändra",
+                "delete": "ta bort"
+              }
+            }
           }
         }
       },
@@ -701,17 +708,7 @@
           "id": "catalog-product",
           "attributes": {
             "title": "Produkt",
-            "icon": "book",
-            "show_in_dashboard": true,
             "display_field": "title",
-            "labels": {
-              "plural_name": "produkter",
-              "singular_name": "produkt",
-              "definite_form_name": "produkten",
-              "add": "lägg till",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
             "schema": {
               "properties": {
                 "title": {
@@ -756,20 +753,23 @@
                   ]
                 }
               }
-            },
-            "options": {
-              "form": {
-                "layout": {
-                  "sidebar": [
-                    "image"
-                  ]
-                }
-              }
             }
           },
           "meta": {
             "position": 10,
-            "status": "published"
+            "status": "published",
+            "options": {
+              "icon": "book",
+              "show_in_dashboard": true,
+              "labels": {
+                "plural_name": "produkter",
+                "singular_name": "produkt",
+                "definite_form_name": "produkten",
+                "add": "lägg till",
+                "edit": "ändra",
+                "delete": "ta bort"
+              }
+            }
           }
         }
       },
@@ -779,15 +779,7 @@
           "id": "image",
           "attributes": {
             "title": "Bild",
-            "icon": "file",
             "display_field": "title",
-            "labels": {
-              "plural_name": "bilder",
-              "singular_name": "bild",
-              "add": "skapa ny",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
             "schema": {
               "properties": {
                 "title": {
@@ -799,7 +791,17 @@
           },
           "meta": {
             "position": 11,
-            "status": "published"
+            "status": "published",
+            "options": {
+              "icon": "file",
+              "labels": {
+                "plural_name": "bilder",
+                "singular_name": "bild",
+                "add": "skapa ny",
+                "edit": "ändra",
+                "delete": "ta bort"
+              }
+            }
           }
         }
       },
