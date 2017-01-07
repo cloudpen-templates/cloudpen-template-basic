@@ -215,16 +215,7 @@
           "id": "sub-page",
           "attributes": {
             "title": "Undersida",
-            "icon": "file",
-            "show_in_page_menu": true,
             "display_field": "title",
-            "labels": {
-              "plural_name": "undersidor",
-              "singular_name": "undersida",
-              "add": "skapa ny",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
             "schema": {
               "properties": {
                 "title": {
@@ -247,7 +238,18 @@
           },
           "meta": {
             "position": 2,
-            "status": "published"
+            "status": "published",
+            "options": {
+              "icon": "file",
+              "show_in_page_menu": true,
+              "labels": {
+                "plural_name": "undersidor",
+                "singular_name": "undersida",
+                "add": "skapa ny",
+                "edit": "ändra",
+                "delete": "ta bort"
+              }
+            }
           }
         }
       },
@@ -257,16 +259,6 @@
           "id": "link",
           "attributes": {
             "title": "Länk",
-            "icon": "file",
-            "show_in_page_menu": true,
-            "labels": {
-              "plural_name": "länkar",
-              "singular_name": "länk",
-              "definite_form_name": "länken",
-              "add": "skapa",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
             "schema": {
               "properties": {
                 "url": {
@@ -298,7 +290,19 @@
           },
           "meta": {
             "position": 3,
-            "status": "published"
+            "status": "published",
+            "options": {
+              "icon": "file",
+              "show_in_page_menu": true,
+              "labels": {
+                "plural_name": "länkar",
+                "singular_name": "länk",
+                "definite_form_name": "länken",
+                "add": "skapa",
+                "edit": "ändra",
+                "delete": "ta bort"
+              }
+            }
           }
         }
       },
@@ -308,17 +312,7 @@
           "id": "blog",
           "attributes": {
             "title": "Blogg",
-            "icon": "file",
-            "show_in_page_menu": true,
             "display_field": "title",
-            "labels": {
-              "plural_name": "bloggar",
-              "singular_name": "blogg",
-              "definite_form_name": "bloggen",
-              "add": "lägg till",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
             "schema": {
               "properties": {
                 "title": {
@@ -332,7 +326,19 @@
           },
           "meta": {
             "position": 4,
-            "status": "published"
+            "status": "published",
+            "options": {
+              "icon": "file",
+              "show_in_page_menu": true,
+              "labels": {
+                "plural_name": "bloggar",
+                "singular_name": "blogg",
+                "definite_form_name": "bloggen",
+                "add": "lägg till",
+                "edit": "ändra",
+                "delete": "ta bort"
+              }
+            }
           }
         }
       },
@@ -342,20 +348,7 @@
           "id": "blog-post",
           "attributes": {
             "title": "Bloggpost",
-            "icon": "book",
-            "show_in_menu": false,
-            "show_in_dashboard": true,
             "display_field": "title",
-            "sort": "-meta.created_at",
-            "layout": "list_form",
-            "labels": {
-              "plural_name": "bloggposter",
-              "singular_name": "bloggpost",
-              "definite_form_name": "bloggposten",
-              "add": "lägg till",
-              "edit": "ändra",
-              "delete": "ta bort"
-            },
             "schema": {
               "properties": {
                 "title": {
@@ -410,21 +403,25 @@
                   ]
                 }
               }
-            },
-            "options": {
-              "form": {
-                "layout": {
-                  "sidebar": [
-                    "image",
-                    "categories"
-                  ]
-                }
-              }
             }
           },
           "meta": {
             "position": 5,
-            "status": "published"
+            "status": "published",
+            "options": {
+              "icon": "book",
+              "show_in_menu": false,
+              "show_in_dashboard": true,
+              "sort": "-meta.created_at",
+              "labels": {
+                "plural_name": "bloggposter",
+                "singular_name": "bloggpost",
+                "definite_form_name": "bloggposten",
+                "add": "lägg till",
+                "edit": "ändra",
+                "delete": "ta bort"
+              }
+            }
           }
         }
       },
