@@ -979,7 +979,7 @@
                     "id": "image-1"
                   }
                 },
-                "link": undefined,
+                "link": null,
                 "link_text": ""
               },
               {
@@ -992,7 +992,7 @@
                     "id": "image-2"
                   }
                 },
-                "link": undefined,
+                "link": null,
                 "link_text": ""
               }
             ],
