@@ -793,7 +793,7 @@
                   "title": "Titel"
                 },
                 "config": {
-                  "type": "string",
+                  "type": "text",
                   "title": "Konfiguration",
                   "format": "json"
                 }
