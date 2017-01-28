@@ -1040,36 +1040,6 @@
             "name": "Startsida",
             "slug": "startsida"
           },
-          "relationships": {
-            "slider_rel": {
-              "data": [
-                {
-                  "id": "slider-1",
-                  "type": "items",
-                  "meta": {
-                    "item_type": {
-                      "data": {
-                        "id": "slider",
-                        "type": "item-types"
-                      }
-                    }
-                  }
-                },
-                {
-                  "id": "slider-2",
-                  "type": "items",
-                  "meta": {
-                    "item_type": {
-                      "data": {
-                        "id": "slider",
-                        "type": "item-types"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          },
           "meta": {
             "item_type": {
               "data": {
