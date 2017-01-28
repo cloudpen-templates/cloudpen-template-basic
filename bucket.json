@@ -174,19 +174,6 @@
                       }
                     }
                   }
-                },
-                "slider_rel": {
-                  "type": "relationship",
-                  "title": "Slider",
-                  "multiple": true,
-                  "mode": "inline",
-                  "disabled": true,
-                  "data": [
-                    {
-                      "id": "slider",
-                      "type": "items"
-                    }
-                  ]
                 }
               }
             }
