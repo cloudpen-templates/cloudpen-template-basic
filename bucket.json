@@ -705,7 +705,7 @@
               "image": {
                 "type": "relationship",
                 "title": "Image",
-                "multiple": false
+                "multiple": false,
                 "data": [
                   {
                     "type": "items",
