@@ -23,7 +23,7 @@
       {% set page = item.relationships.page | include %}
       {% set page['attributes']['slug'] = item.attributes.slug %}
       {% set page['attributes']['path'] = item.attributes.path %}
-      {% set page['attributes']['display_name'] = item.attributes.display_name %}
+      {% set page['attributes']['display_name'] = item.attributes.title %}
       {% set page['attributes']['start_page'] = item.attributes.start_page %}
       {% set page['meta']['position'] = item.meta.position %}
       {# {% set page_attributes_slug = '/' + page.attributes.slug %} #}
