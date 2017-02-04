@@ -6,11 +6,11 @@
         "id": "nav-menu-item",
         "attributes": {
           "title": "Navigation",
-          "display_field": "display_name",
+          "display_field": "title",
           "schema": {
-            "required": ["display_name", "slug"],
+            "required": ["title", "slug"],
             "properties": {
-              "display_name": {
+              "title": {
                 "type": "string",
                 "field": {
                   "placeholder": "Menynamn"
@@ -22,7 +22,7 @@
                   "meta.parent_id",
                   "meta.item_type.data.id"
                 ],
-                "populate_from": "display_name",
+                "populate_from": "title",
                 "field": {
                   "placeholder": "Slugg"
                 }
@@ -899,7 +899,7 @@
         "type": "items",
         "id": "56ba709d9cd1962f7b30f025",
         "attributes": {
-          "display_name": "Startsida",
+          "title": "Startsida",
           "slug": "startsida",
           "start_page": true,
           "path": "/startsida"
@@ -1174,7 +1174,7 @@
         "type": "items",
         "id": "56ba709d9cd1962f7b30f023",
         "attributes": {
-          "display_name": "Sida 1",
+          "title": "Sida 1",
           "slug": "sida-1",
           "path": "/sida-1"
         },
@@ -1279,7 +1279,7 @@
         "type": "items",
         "id": "56ba709d9cd1962f7b30f02b",
         "attributes": {
-          "display_name": "Sida 2",
+          "title": "Sida 2",
           "slug": "sida-2",
           "path": "/sida-2"
         },
@@ -1337,7 +1337,7 @@
         "type": "items",
         "id": "56ba709d9cd1962f7b30f02c",
         "attributes": {
-          "display_name": "Sida 3",
+          "title": "Sida 3",
           "slug": "sida-3",
           "path": "/sida-3"
         },
@@ -1395,7 +1395,7 @@
         "type": "items",
         "id": "56ba709d9cd1962f7b30f026",
         "attributes": {
-          "display_name": "Portfolio",
+          "title": "Portfolio",
           "slug": "portfolio",
           "path": "/portfolio"
         },
@@ -1474,7 +1474,7 @@
         "type": "items",
         "id": "56ba709d9cd1962f7b30f029",
         "attributes": {
-          "display_name": "Blogg",
+          "title": "Blogg",
           "slug": "blogg",
           "path": "/blogg"
         },
@@ -1511,7 +1511,7 @@
         "type": "items",
         "id": "56ba709d9cd1962f7b30f028",
         "attributes": {
-          "display_name": "Kontakta oss",
+          "title": "Kontakta oss",
           "slug": "contact-us",
           "path": "/contact-us"
         },
