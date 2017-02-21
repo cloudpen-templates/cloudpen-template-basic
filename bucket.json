@@ -1718,7 +1718,7 @@
         "type": "media",
         "id": "general-1",
         "attributes": {
-          "title": "Slide 1",
+          "title": "General 1",
           "description": "En bild till slidern",
           "file": {
             "url": "https://raw.githubusercontent.com/cloudpen-templates/cloudpen-template-basic/master/assets/img/general-1.jpg",
