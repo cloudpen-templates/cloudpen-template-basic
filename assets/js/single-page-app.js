@@ -6,6 +6,15 @@ Created:    2016-06-03
 Updated:    2016-06-03
 -------------------------------------------------------------------*/
 
+if (!window.onpopstate) {
+  window.onpopstate = function(e) {
+    if (e.state) {
+      var url = event.state.url;
+      goToRoute(url, true);
+    }
+  };
+}
+
 $('a').each(function() {
   var link = $(this);
   link.click(function() {
@@ -16,7 +25,7 @@ $('a').each(function() {
   });
 });
 
-function goToRoute(url) {
+function goToRoute(url, backButtonClicked) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', url, true);
   xhr.responseType = 'document';
@@ -40,7 +49,9 @@ function goToRoute(url) {
           }
         });
         document.getElementsByTagName('title')[0].innerHTML = title;
-        history.pushState({}, title, url);
+        if (!backButtonClicked) {
+          history.pushState({ url: url, pageTitle: title }, title, url);
+        }
       } else {
         alert('Request failed. Returned status of ' + xhr.status);
       }
