@@ -774,9 +774,9 @@
     {
       "data": {
         "type": "item-types",
-        "id": "c10-config",
+        "id": "twixly-config",
         "attributes": {
-          "title": "C10 - Konfiguration",
+          "title": "Twixly - Konfiguration",
           "schema": {
             "properties": {
               "title": {
@@ -1598,7 +1598,7 @@
           "item_type": {
             "data": {
               "type": "item-types",
-              "id": "c10-config"
+              "id": "twixly-config"
             }
           },
           "position": 0,
