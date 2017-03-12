@@ -789,6 +789,13 @@
                 "format": "json"
               }
             }
+          },
+          "ui_schema": {
+            "config": {
+              "ui:options": {
+                "height": 600
+              }
+            }
           }
         },
         "meta": {
