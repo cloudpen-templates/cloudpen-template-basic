@@ -821,7 +821,8 @@
               },
               "icon": {
                 "type": "string",
-                "title": "Icon"
+                "title": "Icon",
+                "default": "file"
               },
               "item_type_id": {
                 "type": "string",
