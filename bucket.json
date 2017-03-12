@@ -807,7 +807,7 @@
     {
       "data": {
         "type": "item-types",
-        "id": "cms-admin-menu-item",
+        "id": "twixly-admin-menu-item",
         "attributes": {
           "title": "Admin Menu",
           "description": "",
@@ -1618,7 +1618,7 @@
         "meta": {
           "item_type": {
             "data": {
-              "id": "cms-admin-menu-item",
+              "id": "twixly-admin-menu-item",
               "type": "item-types"
             }
           },
@@ -1639,7 +1639,7 @@
         "meta": {
           "item_type": {
             "data": {
-              "id": "cms-admin-menu-item",
+              "id": "twixly-admin-menu-item",
               "type": "item-types"
             }
           },
@@ -1659,7 +1659,7 @@
         "meta": {
           "item_type": {
             "data": {
-              "id": "cms-admin-menu-item",
+              "id": "twixly-admin-menu-item",
               "type": "item-types"
             }
           },
@@ -1681,7 +1681,7 @@
           "item_type": {
             "data": {
               "type": "item-types",
-              "id": "cms-admin-menu-item"
+              "id": "twixly-admin-menu-item"
             }
           },
           "position": 1,
@@ -1703,7 +1703,7 @@
           "item_type": {
             "data": {
               "type": "item-types",
-              "id": "cms-admin-menu-item"
+              "id": "twixly-admin-menu-item"
             }
           },
           "position": 3,
@@ -1723,7 +1723,7 @@
           "item_type": {
             "data": {
               "type": "item-types",
-              "id": "cms-admin-menu-item"
+              "id": "twixly-admin-menu-item"
             }
           },
           "position": 0,
@@ -1743,7 +1743,7 @@
         "meta": {
           "item_type": {
             "data": {
-              "id": "cms-admin-menu-item",
+              "id": "twixly-admin-menu-item",
               "type": "item-types"
             }
           },
