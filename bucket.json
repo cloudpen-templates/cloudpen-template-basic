@@ -1789,26 +1789,6 @@
       "data": {
         "type": "items",
         "attributes": {
-          "title": "Portfolio",
-          "icon": "book",
-          "item_type_id": "portfolio-post"
-        },
-        "meta": {
-          "item_type": {
-            "data": {
-              "type": "item-types",
-              "id": "cms-admin-menu-item"
-            }
-          },
-          "position": 3,
-          "status": "published"
-        }
-      }
-    },
-    {
-      "data": {
-        "type": "items",
-        "attributes": {
           "item_type_id": "general-settings",
           "icon": "cogs",
           "title": "General settings"
