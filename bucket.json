@@ -1683,6 +1683,7 @@
     {
       "data": {
         "type": "items",
+        "id": "admin-menu-blog",
         "attributes": {
           "item_type_id": "",
           "icon": "book",
@@ -1704,18 +1705,19 @@
       "data": {
         "type": "items",
         "attributes": {
-          "title": "Poster",
+          "item_type_id": "blog-post",
           "icon": "book",
-          "item_type_id": "portfolio-post"
+          "title": "Poster"
         },
         "meta": {
           "item_type": {
             "data": {
-              "type": "item-types",
-              "id": "cms-admin-menu-item"
+              "id": "cms-admin-menu-item",
+              "type": "item-types"
             }
           },
           "position": 0,
+          "parent_id": "admin-menu-blog",
           "status": "published"
         }
       }
@@ -1736,6 +1738,49 @@
             }
           },
           "position": 1,
+          "parent_id": "admin-menu-blog",
+          "status": "published"
+        }
+      }
+    },
+    {
+      "data": {
+        "type": "items",
+        "id": "admin-menu-portfolio",
+        "attributes": {
+          "title": "Portfolio",
+          "icon": "book",
+          "item_type_id": ""
+        },
+        "meta": {
+          "item_type": {
+            "data": {
+              "type": "item-types",
+              "id": "cms-admin-menu-item"
+            }
+          },
+          "position": 3,
+          "status": "published"
+        }
+      }
+    },
+    {
+      "data": {
+        "type": "items",
+        "attributes": {
+          "title": "Poster",
+          "icon": "book",
+          "item_type_id": "portfolio-post"
+        },
+        "meta": {
+          "item_type": {
+            "data": {
+              "type": "item-types",
+              "id": "cms-admin-menu-item"
+            }
+          },
+          "position": 0,
+          "parent_id": "admin-menu-portfolio",
           "status": "published"
         }
       }
