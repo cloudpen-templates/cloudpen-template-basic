@@ -799,6 +799,54 @@
           "status": "published"
         }
       }
+    },
+    {
+      "data": {
+        "type": "item-types",
+        "id": "cms-admin-menu-item",
+        "attributes": {
+          "title": "Admin Menu",
+          "description": "",
+          "display_field": "title",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "title": "Title"
+              },
+              "icon": {
+                "type": "string",
+                "title": "Icon"
+              },
+              "item_type_id": {
+                "type": "string",
+                "title": "Item Type ID"
+              }
+            },
+            "required": [
+              "title"
+            ]
+          },
+          "ui_schema": {
+            "item_type": {
+              "ui:placeholder": "Ex. blog-post"
+            },
+            "item_type_id": {
+              "ui:placeholder": "Ex: blog-post"
+            }
+          }
+        },
+        "meta": {
+          "position": 13,
+          "status": "published",
+          "options": {
+            "sort": "meta.position",
+            "sortable": true,
+            "hierarchical": true
+          }
+        }
+      }
     }
   ],
   "items": [
@@ -1608,6 +1656,126 @@
             }
           },
           "position": 0,
+          "status": "published"
+        }
+      }
+    },
+    {
+      "data": {
+        "type": "items",
+        "attributes": {
+          "item_type_id": "nav-menu-item",
+          "icon": "file",
+          "title": "Sidor"
+        },
+        "meta": {
+          "item_type": {
+            "data": {
+              "id": "cms-admin-menu-item",
+              "type": "item-types"
+            }
+          },
+          "position": 0,
+          "status": "published"
+        }
+      }
+    },
+    {
+      "data": {
+        "type": "items",
+        "attributes": {
+          "item_type_id": "",
+          "icon": "book",
+          "title": "Blogg"
+        },
+        "meta": {
+          "item_type": {
+            "data": {
+              "id": "cms-admin-menu-item",
+              "type": "item-types"
+            }
+          },
+          "position": 1,
+          "status": "published"
+        }
+      }
+    },
+    {
+      "data": {
+        "type": "items",
+        "attributes": {
+          "title": "Poster",
+          "icon": "book",
+          "item_type_id": "portfolio-post"
+        },
+        "meta": {
+          "item_type": {
+            "data": {
+              "type": "item-types",
+              "id": "cms-admin-menu-item"
+            }
+          },
+          "position": 0,
+          "status": "published"
+        }
+      }
+    },
+    {
+      "data": {
+        "type": "items",
+        "attributes": {
+          "title": "Kategorier",
+          "icon": "cog",
+          "item_type_id": "blog-post-category"
+        },
+        "meta": {
+          "item_type": {
+            "data": {
+              "type": "item-types",
+              "id": "cms-admin-menu-item"
+            }
+          },
+          "position": 1,
+          "status": "published"
+        }
+      }
+    },
+    {
+      "data": {
+        "type": "items",
+        "attributes": {
+          "title": "Portfolio",
+          "icon": "book",
+          "item_type_id": "portfolio-post"
+        },
+        "meta": {
+          "item_type": {
+            "data": {
+              "type": "item-types",
+              "id": "cms-admin-menu-item"
+            }
+          },
+          "position": 3,
+          "status": "published"
+        }
+      }
+    },
+    {
+      "data": {
+        "type": "items",
+        "attributes": {
+          "item_type_id": "general-settings",
+          "icon": "cogs",
+          "title": "General settings"
+        },
+        "meta": {
+          "item_type": {
+            "data": {
+              "id": "cms-admin-menu-item",
+              "type": "item-types"
+            }
+          },
+          "position": 4,
           "status": "published"
         }
       }
