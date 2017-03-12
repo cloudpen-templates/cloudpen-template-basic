@@ -383,6 +383,14 @@
                 ]
               }
             }
+          },
+          "ui_schema": {
+            "ui:layout": {
+              "sidebar": [
+                "image",
+                "categories"
+              ]
+            }
           }
         },
         "meta": {
@@ -423,17 +431,6 @@
                 "type": "slug",
                 "title": "Slugg",
                 "populate_from": "title"
-              },
-              "posts": {
-                "type": "relationship",
-                "title": "Poster",
-                "multiple": true,
-                "data": [
-                  {
-                    "type": "items",
-                    "id": "blog-post"
-                  }
-                ]
               }
             }
           }
@@ -1095,27 +1092,6 @@
     {
       "data": {
         "type": "items",
-        "id": "subpage-3",
-        "attributes": {
-          "title": "Sida 3",
-          "excerpt": "Sammanfattning",
-          "body": "Innehåll"
-        },
-        "meta": {
-          "item_type": {
-            "data": {
-              "type": "item-types",
-              "id": "sub-page"
-            }
-          },
-          "position": 0,
-          "status": "published"
-        }
-      }
-    },
-    {
-      "data": {
-        "type": "items",
         "id": "56ba709d9cd1962f7b30f02e",
         "attributes": {
           "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n\r\n## Lorem ipsum dolor\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -1376,43 +1352,6 @@
             }
           },
           "position": 2,
-          "status": "published"
-        }
-      }
-    },
-    {
-      "data": {
-        "type": "items",
-        "id": "56ba709d9cd1962f7b30f02c",
-        "attributes": {
-          "title": "Sida 3",
-          "slug": "sida-3",
-          "path": "/sida-3"
-        },
-        "relationships": {
-          "page": {
-            "data": {
-              "type": "items",
-              "id": "subpage-3",
-              "meta": {
-                "item_type": {
-                  "data": {
-                    "type": "item-types",
-                    "id": "sub-page"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "meta": {
-          "item_type": {
-            "data": {
-              "type": "item-types",
-              "id": "nav-menu-item"
-            }
-          },
-          "position": 3,
           "status": "published"
         }
       }
